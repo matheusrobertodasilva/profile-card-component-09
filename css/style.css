@@ -26,8 +26,8 @@ body{
     font-family: var(--Kumbh);
     font-size: 15px;
     background: 
-    no-repeat right -20vh bottom -30vh /65% url(../images/bg-pattern-bottom.svg),
-    no-repeat left -20vh top -30vh /65%  url(../images/bg-pattern-top.svg); 
+    no-repeat right -40vh bottom -10vh /60vh url(../images/bg-pattern-bottom.svg),
+    no-repeat left -45vh top -30vh /70vh  url(../images/bg-pattern-top.svg); 
     background-color: var(--Dark-cyan);
     
     
@@ -36,7 +36,7 @@ body{
 .component{
     background-color: white;
     border-radius: 10px;
-    width: 40vh;
+    width: 38vh;
 }
 .component__image{
     width: inherit;
@@ -107,4 +107,13 @@ body{
     color: var(--Dark-grayish-blue);
     font-size: 12px;
     margin-top: 10px;
+}
+
+@media screen and (min-width:800px){
+    body{
+    background: 
+    no-repeat right -20vh bottom -30vh /65% url(../images/bg-pattern-bottom.svg),
+    no-repeat left -20vh top -30vh /65%  url(../images/bg-pattern-top.svg); 
+    background-color: var(--Dark-cyan);
+    }
 }
