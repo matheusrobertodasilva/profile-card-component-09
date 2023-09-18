@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+/* ## Colors */
+
+/* ### Primary */
+
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+
+/* ### Neutral */
+
+--Dark-gray: hsl(0, 0%, 59%);
+
+/* ### Font */
+
+--Kumbh:'Kumbh Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--Kumbh);
+    font-size: 15px;
+    background: no-repeat url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    
+}
+
+.component{
+    background-color: white;
+    border-radius: 10px;
+    width: 40vh;
+    border: 1px solid var(--Dark-grayish-blue);
+}
+.component__image{
+    width: inherit;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Content */
+.content{
+    
+}
+
+/* Perfil */
+.content__perfil{
+    text-align: center;
+    color: var(--Dark-grayish-blue);
+}
+
+.perfil__image{
+    width: 10vh;
+    border-radius: 50px;
+    border: 5px solid white;
+    position: relative;
+    top: -50px;
+    
+}
+
+.perfil__title{
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--Very-dark-desaturated-blue);
+    margin-top: 20px;
+}
+
+.perfil__title span{
+    font-weight: 400;
+    color: var(--Dark-grayish-blue);
+    margin-left: 5px;
+}
+
+.perfil__subtitle{
+    margin: 25px 0;
+}
+
+/* line */
+.line{  
+    list-style: none;
+    color: var(--Dark-grayish-blue);
+    
+}
+
+/* info */
+.content__info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.info__block{
+    text-align: center;
+}
+
+.info__title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.info__text{
+    color: var(--Dark-grayish-blue);
+    font-size: 12px;
+    margin-top: 10px;
+}
